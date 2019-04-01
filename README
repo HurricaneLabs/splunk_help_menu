@@ -1,0 +1,17 @@
+The Splunk Help Menu allows you to easily add a contextual help menu to any of your Splunk dashboard panels. The extra information provided in the help menu may be beneficial to users who are not familiar with a particular search or searches on a dashboard.
+
+There is also a how-to guide on hurricanelabs.com that covers how this app was built.
+
+Instructions on adding a help menu to a panel:
+1) Add a reference the JavaScript and CSS in your dashboard’s Simple XML:
+<dashboard script="help_menu:index.js" stylesheet="help_menu:popdown_help.css">
+
+2) Add the necessary HTML inside of a panel:
+<panel>
+    … omited for brevity …
+    <html>
+        <div class="help-button" data-link-text="?" data-text="This is a list of all our saved searches."/>
+    </html>
+</panel>
+
+3. Save your changes.

@@ -1,0 +1,19 @@
+.help-button {
+    background-color: #222;
+    display: inline;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+.help-button span a {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+.popdown-body {
+    background: white;
+    padding: 6px;
+}
+.help-text p {
+    margin: 0;
+}
